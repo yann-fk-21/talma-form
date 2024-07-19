@@ -336,8 +336,19 @@
   }
   .space-signup input {
     padding-left: 35px;
-    width: 100%;
     padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    outline: none;
+    transition: ease-in-out 0.2s;
+  }
+
+  .space-signup input[type = 'date'] {
+    padding-left: 35px;
+    padding-right: 15px;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     border: 1px solid #c3c3c3;
