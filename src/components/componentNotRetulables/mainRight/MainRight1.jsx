@@ -202,7 +202,7 @@ export const MainRight1 = ({ onSubmit }) => {
             {errors.bio && <span className="error">{errors.bio.message}</span>}
           </div>
         </div>
-        <div className="btn_container">
+        <div className=".btn_container_mainright_1">
           <ButtonNext next="Next step" />
         </div>
       </form>
