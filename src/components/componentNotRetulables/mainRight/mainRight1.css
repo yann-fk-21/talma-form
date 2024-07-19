@@ -298,7 +298,7 @@
 
   .img_user {
     position: absolute;
-    top: 36px;
+    top: 37px;
     width: 13px;
     height: 13px;
     left: 10px;
@@ -306,7 +306,7 @@
   }
   .search {
     position: absolute;
-    top: 35px;
+    top: 37px;
     width: 13px;
     height: 13px;
     right: 10px;
@@ -315,7 +315,7 @@
 
   .email_user {
     position: absolute;
-    top: 35px;
+    top: 37px;
     width: 15px;
     height: 10px;
     left: 10px;
@@ -355,9 +355,23 @@
   input[type="text"],
   input[type="date"],
   input[type="email"],
-  input[type="passwoed"],
+  input[type="password"],
   textarea,
   select {
     font-size: 16px;
   }
+
+  input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 35px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    outline: none;
+    transition: ease-in-out 0.2s;
+}
 }
