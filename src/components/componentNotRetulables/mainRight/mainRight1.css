@@ -232,7 +232,7 @@
   .btn_container_mainright_1 {
     width: 100%;
     display: flex;
-    justify-content: end;
+    align-items: end;
   }
 
   /* .errors{
