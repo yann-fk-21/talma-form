@@ -298,7 +298,7 @@
 
   .img_user {
     position: absolute;
-    top: 37px;
+    top: 40px;
     width: 13px;
     height: 13px;
     left: 10px;
@@ -361,6 +361,7 @@
     font-size: 16px;
   }
 
+  /*Style pour l'input date*/
   input[type="date"] {
     appearance: none;
     -webkit-appearance: none;
@@ -373,5 +374,25 @@
     border-radius: 5px;
     outline: none;
     transition: ease-in-out 0.2s;
+}
+
+/* Styles spécifiques pour iOS */
+@supports (-webkit-touch-callout: none) {
+  input[type="date"] {
+    padding-left: 35px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/* Styles spécifiques pour Android */
+@supports (-moz-appearance: none) and (not (-webkit-touch-callout: none)) {
+  input[type="date"] {
+    padding-left: 35px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 }
