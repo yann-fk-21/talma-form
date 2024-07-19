@@ -384,19 +384,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
-}
 
-/* Styles spécifiques pour Android */
-@supports (-moz-appearance: none) and (not (-webkit-touch-callout: none)) {
-  input[type="date"] {
-    padding-left: 35px;
-    padding-right: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
-
-/*Style du placeholder de l'input date*/
+  /*Style du placeholder de l'input date*/
 input[type="date"]::-webkit-input-placeholder {
   color: #c3c3c3;
 }
@@ -416,5 +405,38 @@ input[type="date"]:-ms-input-placeholder {
 input[type="date"]::placeholder {
   color: #c3c3c3;
 }
+}
+
+/* Styles spécifiques pour Android */
+@supports (-moz-appearance: none) and (not (-webkit-touch-callout: none)) {
+  input[type="date"] {
+    padding-left: 35px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /*Style du placeholder de l'input date*/
+input[type="date"]::-webkit-input-placeholder {
+  color: #c3c3c3;
+}
+
+input[type="date"]:-moz-placeholder {
+  color: #c3c3c3;
+}
+
+input[type="date"]::-moz-placeholder {
+  color: #c3c3c3; 
+}
+
+input[type="date"]:-ms-input-placeholder {
+  color: #c3c3c3;
+}
+
+input[type="date"]::placeholder {
+  color: #c3c3c3;
+}
+}
+
 
 }
