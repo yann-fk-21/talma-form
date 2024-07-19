@@ -362,7 +362,7 @@
   }
 
   /*Style pour l'input date*/
-  /*input[type="date"] {
+  input[type="date"] {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -374,7 +374,7 @@
     border-radius: 5px;
     outline: none;
     transition: ease-in-out 0.2s;
-} */
+} 
 
 /* Styles spécifiques pour iOS */
 @supports (-webkit-touch-callout: none) {
@@ -383,27 +383,32 @@
     padding-right: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
-  }
+  } 
 
   /*Style du placeholder de l'input date*/
 input[type="date"]::-webkit-input-placeholder {
   color: #c3c3c3;
+  font-size: 15px;
 }
 
 input[type="date"]:-moz-placeholder {
   color: #c3c3c3;
+  font-size: 15px;
 }
 
 input[type="date"]::-moz-placeholder {
   color: #c3c3c3; 
+  font-size: 15px;
 }
 
 input[type="date"]:-ms-input-placeholder {
   color: #c3c3c3;
+  font-size: 15px;
 }
 
 input[type="date"]::placeholder {
   color: #c3c3c3;
+  font-size: 15px;
 }
 }
 
