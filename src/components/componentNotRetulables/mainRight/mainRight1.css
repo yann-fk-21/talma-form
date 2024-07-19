@@ -362,7 +362,7 @@
   }
 
   /*Style pour l'input date*/
-  input[type="date"] {
+  /*input[type="date"] {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -374,7 +374,7 @@
     border-radius: 5px;
     outline: none;
     transition: ease-in-out 0.2s;
-}
+} */
 
 /* Styles spécifiques pour iOS */
 @supports (-webkit-touch-callout: none) {

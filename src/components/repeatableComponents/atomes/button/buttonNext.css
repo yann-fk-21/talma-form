@@ -64,7 +64,6 @@
   }
   .parent_preview_step {
     display: flex;
-    text-wrap: nowrap;
     gap: 8px;
     border: 1px solid #592e83;
     width: 70px;
