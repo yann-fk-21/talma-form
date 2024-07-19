@@ -1,0 +1,1 @@
+export const dataSelectGender = ["Male","Female","Others"]

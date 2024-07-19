@@ -1,0 +1,12 @@
+.step_information_personal{
+    display: flex;
+    flex-direction: column !important;
+    gap: 5px;
+}
+.step{
+font-size: 12px !important;
+color:#1E1E1E ;
+}
+.step_information_personal :nth-child(2){
+    color: #1E1E1E;
+}

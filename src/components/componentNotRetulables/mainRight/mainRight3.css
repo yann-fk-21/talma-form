@@ -1,0 +1,141 @@
+/* Responsive portable */
+@media (min-width: 768px) {
+  .parent_input_checkSelect {
+    position: relative;
+    width: 100%;
+    transform: translate3d(0, 7px, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: left;
+  }
+  .professions_skills_radio {
+    border: 1px solid #e6d4f8;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    transform: translate3d(0, 7px, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .skills_radio {
+    width: 100%;
+    transform: translate3d(0, 7px, 0);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #fafafa;
+    padding-bottom: 10px;
+  }
+  .parent_radio {
+    display: flex;
+    gap: 3px;
+  }
+
+  .parent_radio input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    background: #e6d4f8 !important;
+    border: none;
+    padding: 4px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+  }
+
+  .parent_radio input[type="checkbox"]:checked {
+    background-color: #592e83 !important;
+  }
+
+  #information_professions_skills {
+    font-size: 14px;
+    color: #1e1e1e;
+  }
+  #information_professions_name {
+    background: #e6d4f8;
+    padding-left: 10px !important;
+    border: none;
+    font-size: 15px;
+    color: #1e1e1e;
+    font-weight: 600;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+  }
+}
+
+/* Responsive smartphone */
+@media (max-width: 480px) {
+  .parent_input_checkSelect {
+    position: relative;
+    width: 100%;
+    transform: translate3d(0, 7px, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: left;
+  }
+  .professions_skills_radio {
+    border: 1px solid #e6d4f8;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    transform: translate3d(0, 7px, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .skills_radio {
+    width: 100%;
+    transform: translate3d(0, 7px, 0);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #fafafa;
+    padding-bottom: 10px;
+  }
+  .parent_radio {
+    display: flex;
+    gap: 3px;
+  }
+
+  .parent_radio input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    background: #e6d4f8 !important;
+    border: none;
+    padding: 4px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+  }
+
+  .parent_radio input[type="checkbox"]:checked {
+    background-color: #592e83 !important;
+  }
+
+  #information_professions_skills {
+    font-size: 14px;
+    color: #1e1e1e;
+  }
+  #information_professions_name {
+    background: #e6d4f8;
+    padding-left: 10px !important;
+    border: none;
+    font-size: 15px;
+    color: #1e1e1e;
+    font-weight: 600;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+  }
+}
