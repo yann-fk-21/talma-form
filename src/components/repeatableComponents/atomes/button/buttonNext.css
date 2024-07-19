@@ -51,6 +51,7 @@
 @media (max-width: 480px) {
   .next_step {
     font-size: 14px;
+    text-wrap: nowrap;
     border: none;
     border-radius: 5px;
     padding-left: 10px;
@@ -63,6 +64,7 @@
   }
   .parent_preview_step {
     display: flex;
+    text-wrap: nowrap;
     gap: 8px;
     border: 1px solid #592e83;
     width: 70px;

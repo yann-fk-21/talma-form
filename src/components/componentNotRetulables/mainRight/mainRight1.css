@@ -419,22 +419,27 @@ input[type="date"]::placeholder {
   /*Style du placeholder de l'input date*/
 input[type="date"]::-webkit-input-placeholder {
   color: #c3c3c3;
+  font-size: 15px;
 }
 
 input[type="date"]:-moz-placeholder {
   color: #c3c3c3;
+  font-size: 15px;
 }
 
 input[type="date"]::-moz-placeholder {
   color: #c3c3c3; 
+  font-size: 15px;
 }
 
 input[type="date"]:-ms-input-placeholder {
   color: #c3c3c3;
+  font-size: 15px;
 }
 
 input[type="date"]::placeholder {
   color: #c3c3c3;
+  font-size: 15px;
 }
 }
 
