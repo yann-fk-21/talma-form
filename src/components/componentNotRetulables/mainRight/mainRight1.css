@@ -229,6 +229,12 @@
     justify-content: space-between;
   }
 
+  .btn_container_mainright_1 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+
   /* .errors{
         position: absolute !important;
         right: 0;
