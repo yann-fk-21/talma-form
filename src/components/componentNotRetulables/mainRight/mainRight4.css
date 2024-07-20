@@ -71,13 +71,13 @@
   input[type="date"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
-  }
+  } 
   input[type="date"] {
-    /* border: 1px solid #ccc; */
+    border: 1px solid #ccc; 
     border-radius: 4px;
     transform: translate3d(0, -3px, 0);
     background: white;
-  }
+  } 
 
   /* input[type="date"]:focus {
         outline: none;
@@ -85,7 +85,7 @@
       } */
 }
 
-/* Responsive laptop */
+/* Responsive smartphone */
 @media (max-width: 480px) {
   .form_information_height {
     width: 100%;
@@ -153,17 +153,18 @@
     
       }*/
 
-  input[type="date"]::-webkit-inner-spin-button,
+  /*input[type="date"]::-webkit-inner-spin-button,
   input[type="date"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
-  }
-  input[type="date"] {
-    /* border: 1px solid #ccc; */
+  } */
+  /*input[type="date"] {
+     border: 1px solid #ccc; 
     border-radius: 4px;
+    width: 100%;
     transform: translate3d(0, -3px, 0);
     background: white;
-  }
+  } */
 
   /* input[type="date"]:focus {
         outline: none;
