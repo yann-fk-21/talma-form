@@ -124,7 +124,7 @@
   }
   .check_circle_span {
     border-left: 3px solid rgb(0, 0, 0, 0.05);
-    height: 60vh;
+    height: 50%;
     margin: auto;
   }
   .circle-img-transition {

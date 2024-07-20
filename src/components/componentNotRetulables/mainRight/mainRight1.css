@@ -368,8 +368,8 @@
     -moz-appearance: none;
     padding-left: 5px;
     padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border: 1px solid #c3c3c3;
     border-radius: 5px;
     outline: none;
