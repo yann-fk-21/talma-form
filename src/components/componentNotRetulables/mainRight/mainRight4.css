@@ -142,6 +142,15 @@
     color: #cc212d;
     transform: translate3d(0, -1px, 0);
   }
+
+  .placeholder_date {
+    position: absolute;
+    top:5px;
+    left: 15px;
+    font-size: 15px;
+    color: #ccc;
+  }
+
   .remove {
     width: 17px;
     height: 17px;

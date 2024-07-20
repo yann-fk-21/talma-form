@@ -363,9 +363,9 @@
 
   /*Style pour l'input date*/
   input[type="date"] {
-    /*appearance: none;
+    appearance: none;
     -webkit-appearance: none;
-    -moz-appearance: none;*/
+    -moz-appearance: none;
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 20px;
@@ -380,12 +380,12 @@
 
 /* Styles spécifiques pour iOS */
 @supports (-webkit-touch-callout: default) {
-  /*input[type="date"] {
+  input[type="date"] {
     padding-left: 35px;
     padding-right: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
-  } */
+  } 
 
   /*Style du placeholder de l'input date*/
 input[type="date"]::-webkit-input-placeholder {
@@ -416,12 +416,12 @@ input[type="date"]::placeholder {
 
 /* Styles spécifiques pour Android */
 @supports (-moz-appearance: default) and (not (-webkit-touch-callout: default)) {
-  /*input[type="date"] {
+  input[type="date"] {
     padding-left: 35px;
     padding-right: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
-  }*/
+  }
 
   /*Style du placeholder de l'input date*/
 input[type="date"]::-webkit-input-placeholder {

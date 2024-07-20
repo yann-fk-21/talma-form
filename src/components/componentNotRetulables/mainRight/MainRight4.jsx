@@ -33,6 +33,7 @@ export const MainRight4 = ({ onSubmit, update }) => {
   const [currentDomain, setCurrentDomain] = useState(null);
   const [currentLevel, setCurrentLevel] = useState(null);
   const [currentEstablishment, setCurrentEstablishment] = useState(null);
+  const [isShowDatePlaceholder, setIsShowDatePlaceholder] = useState(true);
 
   useEffect(() => {
     console.log(formations);
@@ -349,6 +350,7 @@ export const MainRight4 = ({ onSubmit, update }) => {
                         const updatedFormation = updatedFormations.find(
                           (f) => f.id === formation.id
                         );
+                        setIsShowDatePlaceholder(false);
                         updatedFormation.year = e.target.value;
                         setFormations(updatedFormations);
                         register("year").onChange(e); // Access onChange from register
@@ -361,6 +363,7 @@ export const MainRight4 = ({ onSubmit, update }) => {
                       className="img_user"
                       style={{ color: iconColorYear }}
                     />
+                    {isShowDatePlaceholder && <span className="placeholder_date">Select date</span>}
                     {errors[`year-${formation.id}`] && (
                       <span className="error">
                         {errors[`year-${formation.id}`].message}
