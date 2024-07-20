@@ -366,10 +366,10 @@
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border: 1px solid #c3c3c3;
     border-radius: 5px;
     outline: none;
