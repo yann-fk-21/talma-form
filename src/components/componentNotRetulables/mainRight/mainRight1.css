@@ -367,9 +367,10 @@
     -webkit-appearance: none;
     -moz-appearance: none;*/
     padding-left: 35px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
     border: 1px solid #c3c3c3;
     border-radius: 5px;
     outline: none;
@@ -378,13 +379,13 @@
 } 
 
 /* Styles spécifiques pour iOS */
-@supports (-webkit-touch-callout: none) {
-  input[type="date"] {
+@supports (-webkit-touch-callout: default) {
+  /*input[type="date"] {
     padding-left: 35px;
     padding-right: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
-  } 
+  } */
 
   /*Style du placeholder de l'input date*/
 input[type="date"]::-webkit-input-placeholder {
@@ -414,13 +415,13 @@ input[type="date"]::placeholder {
 }
 
 /* Styles spécifiques pour Android */
-@supports (-moz-appearance: none) and (not (-webkit-touch-callout: none)) {
-  input[type="date"] {
+@supports (-moz-appearance: default) and (not (-webkit-touch-callout: default)) {
+  /*input[type="date"] {
     padding-left: 35px;
     padding-right: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
-  }
+  }*/
 
   /*Style du placeholder de l'input date*/
 input[type="date"]::-webkit-input-placeholder {
