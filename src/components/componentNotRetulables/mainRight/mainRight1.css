@@ -362,7 +362,7 @@
   }
 
   /*Style pour l'input date*/
-  input[type="date"] {
+  .space-signup input[type="date"] {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
