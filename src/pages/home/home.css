@@ -10,7 +10,7 @@
   }
   .main {
     display: flex;
-    width: 100%;
+    width: 100hv;
   }
   ::-webkit-scrollbar {
     width: 4px !important;
