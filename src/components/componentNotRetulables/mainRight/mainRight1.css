@@ -371,7 +371,8 @@
     padding-top: 25px;
     padding-bottom: 25px;*/
     height: 20px;
-    width: 260px;
+    /*width: 260px;*/
+    width: 300px;
     border: 1px solid #c3c3c3;
     border-radius: 5px;
     outline: none;
