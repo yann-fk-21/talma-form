@@ -59,6 +59,7 @@ export const MainRight5 = ({ onSubmit, update }) => {
   const [searchResults, searchElementUser] = useSearchElement(professions);
   const [inputValue, setInputValue] = useState("");
   const [content, setContent] = useState("");
+  const [isShowDatePlaceholder, setIsShowDatePlaceholder] = useState(true);
   /***a servir a la vue 5 */
   useEffect(() => {
     console.log(formationsProfessions);
@@ -318,6 +319,7 @@ export const MainRight5 = ({ onSubmit, update }) => {
                         const updatedFormation = updatedFormations.find(
                           (f) => f.id === formation.id
                         );
+                        setIsShowDatePlaceholder(false);
                         updatedFormation.year = e.target.value;
                         setFormationsProfessions(updatedFormations);
                         register("year").onChange(e); // Access onChange from register
@@ -332,6 +334,7 @@ export const MainRight5 = ({ onSubmit, update }) => {
                       className="img_user"
                       style={{ color: iconColorDate }}
                     />
+                    {isShowDatePlaceholder && <span className="placeholder_date">Select date</span>}
                     {errors[`date-${formation.id}`] && (
                       <span className="error">
                         {errors[`date-${formation.id}`].message}
