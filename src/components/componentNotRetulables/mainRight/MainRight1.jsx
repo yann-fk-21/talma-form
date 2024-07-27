@@ -1,7 +1,7 @@
-import "./mainRight1.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import './mainRight1.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 //import { InputLabel } from "../../componentsReutilisables/molecules/inputLabel/InputLabel" a revenir pour factoriser
-import { Select } from "../../repeatableComponents/atomes/select/Select";
+import { Select } from '../../repeatableComponents/atomes/select/Select';
 import {
   faHome,
   faUser,
@@ -9,14 +9,14 @@ import {
   faEnvelope,
   faCaretDown,
   faVenus,
-} from "@fortawesome/free-solid-svg-icons";
-import { useForm } from "react-hook-form";
-import { ButtonNext } from "../../repeatableComponents/atomes/button/ButtonNext";
-import { useState } from "react";
-import { HeaderMainRight } from "../../repeatableComponents/molecules/header/HeaderMainRight";
-import { useDataContext } from "../../../customHooks/useDataContext";
-import { dataSelectGender } from "../../../data/dataSelectGender";
-import { useInputState } from "../../../customHooks/useInputState";
+} from '@fortawesome/free-solid-svg-icons';
+import { useForm } from 'react-hook-form';
+import { ButtonNext } from '../../repeatableComponents/atomes/button/ButtonNext';
+import { useState } from 'react';
+import { HeaderMainRight } from '../../repeatableComponents/molecules/header/HeaderMainRight';
+import { useDataContext } from '../../../customHooks/useDataContext';
+import { dataSelectGender } from '../../../data/dataSelectGender';
+import { useInputState } from '../../../customHooks/useInputState';
 export const MainRight1 = ({ onSubmit }) => {
   const [isFocused, setIsFocused] = useState(false);
   const [hasValidInput, setHasValidInput] = useState(false);
@@ -78,9 +78,9 @@ export const MainRight1 = ({ onSubmit }) => {
               defaultValue={data.firstName}
               name="firstName"
               {...register(
-                "firstName",
+                'firstName',
                 {
-                  required: "Veuillez entrer votre prenom",
+                  required: 'Veuillez entrer votre prenom',
                   minLength: {
                     value: 3,
                   },
@@ -108,9 +108,9 @@ export const MainRight1 = ({ onSubmit }) => {
               style={{ borderColor: inputBorderColorLastName }}
               defaultValue={data.lastName}
               {...register(
-                "lastName",
+                'lastName',
                 {
-                  required: "Veuillez entrer votre nom",
+                  required: 'Veuillez entrer votre nom',
                   minLength: {
                     value: 3,
                   },
@@ -140,9 +140,9 @@ export const MainRight1 = ({ onSubmit }) => {
               style={{ borderColor: inputBorderColorEmailName }}
               defaultValue={data.email}
               {...register(
-                "email",
+                'email',
                 {
-                  required: "Veuillez entrer votre adresse e-mail",
+                  required: 'Veuillez entrer votre adresse e-mail',
                   pattern: {
                     value: /^\S+@\S+$/i,
                     message: "Mauvaise syntaxe d'email",
@@ -184,9 +184,9 @@ export const MainRight1 = ({ onSubmit }) => {
               defaultValue={data.bio}
               name="bio"
               {...register(
-                "bio",
+                'bio',
                 {
-                  required: "Veuillez entrer votre biographie",
+                  required: 'Veuillez entrer votre biographie',
                   minLength: {},
                 },
                 { onChange: (e) => setData(e.target.value) }
@@ -203,7 +203,7 @@ export const MainRight1 = ({ onSubmit }) => {
           </div>
         </div>
         <div className="btn_container_mainright_1">
-          <ButtonNext next="Next step" />
+          <ButtonNext next="Next Step" />
         </div>
       </form>
     </div>
