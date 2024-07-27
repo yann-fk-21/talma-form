@@ -69,7 +69,7 @@
 /* Responsive smartphone*/
 @media (max-width: 480px) {
   .main_right {
-    width: 100%;
+    /* width: 100%; */
     /* padding-top: 20px !important; */
     display: flex;
     flex-direction: column;
