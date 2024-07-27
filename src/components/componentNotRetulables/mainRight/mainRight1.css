@@ -195,7 +195,7 @@
     flex-direction: column;
     gap: 20px;
     text-align: center;
-    width: 100%;
+    /* width: 100%; */
   }
   .form_information_signup_description {
     width: 100%;
