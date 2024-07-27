@@ -85,7 +85,7 @@
   .convertion {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
     font-size: 0.7em;
     transform: translate3d(0, -5px, 0);
   }
