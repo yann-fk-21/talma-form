@@ -33,7 +33,7 @@
 /***composant messages***/
 
 /* Responsive laptop */
-@media (max-width: 480px) {
+@media (min-width: 768px) {
   .messages {
     position: relative;
     background-color: #592e83;
