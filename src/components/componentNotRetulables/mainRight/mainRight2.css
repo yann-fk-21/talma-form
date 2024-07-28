@@ -121,6 +121,7 @@
     flex-direction: column;
     gap: 3px;
     color: #1e1e1e;
+    text-align: start;
   }
   .condition_1 {
     font-size: 12px !important;
@@ -128,6 +129,5 @@
   }
   .condition_2 {
     font-size: 11px !important;
-    text-align: left;
   }
 }
