@@ -172,7 +172,10 @@
 @media (max-width: 480px) {
   .main_right {
     width: 85%;
-    padding: 20px 0px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
     display: flex;
     flex-direction: column;
     gap: 30px;
